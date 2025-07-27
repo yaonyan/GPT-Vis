@@ -1,4 +1,4 @@
-import { G6 } from '@antv/g6-ssr';
+import { G6 } from '@yaonyan/g6-ssr';
 const { treeToGraphData: treeToGraphDataG6 } = G6;
 
 type TreeGraphData = {

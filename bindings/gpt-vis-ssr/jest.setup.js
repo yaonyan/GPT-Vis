@@ -1,4 +1,4 @@
-const { registerFont } = require('canvas');
+const { registerFont } = require('@napi-rs/canvas');
 const path = require('path');
 const { FontFamily } = require('./src');
 

@@ -1,5 +1,5 @@
-import { createChart } from '@antv/g2-ssr';
 import { type ScatterProps } from '@antv/gpt-vis/dist/esm/Scatter';
+import { createChart } from '@yaonyan/g2-ssr';
 import { THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { getTitle } from '../util';

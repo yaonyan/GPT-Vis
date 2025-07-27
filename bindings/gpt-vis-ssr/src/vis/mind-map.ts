@@ -1,7 +1,7 @@
-import { createGraph, G6 } from '@antv/g6-ssr';
 import { type MindMapProps } from '@antv/gpt-vis/dist/esm/MindMap';
-import type { CanvasRenderingContext2D } from 'canvas';
-import { createCanvas } from 'canvas';
+import type { CanvasRenderingContext2D } from '@napi-rs/canvas';
+import { createCanvas } from '@napi-rs/canvas';
+import { createGraph, G6 } from '@yaonyan/g6-ssr';
 import { G6THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { MindmapNode } from '../util';
@@ -34,8 +34,9 @@ type TextStyle = {
 
 const measureText = (style: TextStyle): number => {
   if (!canvas) {
+    // @ts-expect-error -
     canvas = createCanvas(0, 0);
-    ctx = canvas.getContext('2d');
+    ctx = canvas?.getContext('2d')!;
   }
 
   const font = [

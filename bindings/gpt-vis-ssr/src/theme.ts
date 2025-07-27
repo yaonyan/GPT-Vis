@@ -1,4 +1,4 @@
-import { G6 } from '@antv/g6-ssr';
+import { G6 } from '@yaonyan/g6-ssr';
 import { ACADEMY_COLOR_PALETTE, AssignColorByBranchTransform, DEFAULT_COLOR_PALETTE } from './util';
 
 const { register, ExtensionCategory } = G6;

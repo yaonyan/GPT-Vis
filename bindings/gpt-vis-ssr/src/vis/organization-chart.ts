@@ -1,4 +1,4 @@
-import { createGraph, G6 } from '@antv/g6-ssr';
+import { createGraph, G6 } from '@yaonyan/g6-ssr';
 import { G6THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { OrganizationChartNode, treeToGraphData } from '../util';

@@ -1,5 +1,5 @@
-import { createChart } from '@antv/g2-ssr';
 import { type WordCloudProps } from '@antv/gpt-vis/dist/esm/WordCloud';
+import { createChart } from '@yaonyan/g2-ssr';
 import { THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { CommonOptions } from './types';

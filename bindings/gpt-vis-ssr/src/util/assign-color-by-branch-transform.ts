@@ -1,4 +1,4 @@
-import { G6 } from '@antv/g6-ssr';
+import { G6 } from '@yaonyan/g6-ssr';
 import { DEFAULT_COLOR_PALETTE } from './palette';
 const { BaseTransform } = G6;
 

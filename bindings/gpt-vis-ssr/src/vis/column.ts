@@ -1,5 +1,5 @@
-import { createChart } from '@antv/g2-ssr';
 import { type ColumnProps } from '@antv/gpt-vis/dist/esm/Column';
+import { createChart } from '@yaonyan/g2-ssr';
 import { THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { getTitle } from '../util';

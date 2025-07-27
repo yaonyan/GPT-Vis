@@ -1,5 +1,5 @@
-import { createGraph } from '@antv/g6-ssr';
 import { type NetworkGraphProps } from '@antv/gpt-vis/dist/esm/NetworkGraph';
+import { createGraph } from '@yaonyan/g6-ssr';
 import { G6THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { CommonOptions } from './types';

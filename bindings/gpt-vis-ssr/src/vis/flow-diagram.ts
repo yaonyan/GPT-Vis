@@ -1,5 +1,5 @@
-import { createGraph } from '@antv/g6-ssr';
 import { type FlowDiagramProps } from '@antv/gpt-vis/dist/esm/FlowDiagram';
+import { createGraph } from '@yaonyan/g6-ssr';
 import { G6THEME_MAP } from '../theme';
 import { FontFamily } from '../types';
 import { CommonOptions } from './types';
